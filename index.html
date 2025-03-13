@@ -9,6 +9,13 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Doctor Care</title>
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <!-- tailwind-css -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -18,14 +25,29 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              primary: "#00856F",
+              "green-light": "#DCE9E2",
+              "green-light-02": "#F7F9F9",
+              "brand-being": "#FFFAF1",
+              "brand-green-hover": "#00453A",
             },
+          },
+          fontFamily: {
+            primary: ["DM Sans", "sans-serif"],
+            // sendory: ["Poppins", "sans-serif"],
           },
         },
       };
     </script>
+    <!-- remix-icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline text-red-800">Hello world!</h1>
+    <h1 class="text-3xl font-bold underline text-blue-600 font-primary">
+      Hello world!
+    </h1>
   </body>
 </html>

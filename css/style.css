@@ -24,20 +24,20 @@
 .service-content {
   animation: textAnimation 1.2s ease-in-out forwards;
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 0.9s;
 }
 .about-section {
   animation: textAnimation 1.2s ease-in-out forwards;
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 0.9s;
 }
 .contact-content {
   animation: textAnimation 1.2s ease-in-out forwards;
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 0.9s;
 }
 .stats-section {
   animation: textAnimation 1.2s ease-in-out forwards;
   opacity: 0;
-  animation-delay: 0.5s;
+  animation-delay: 0.9s;
 }

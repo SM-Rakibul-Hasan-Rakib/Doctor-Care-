@@ -45,6 +45,14 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .active {
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body class="bf-green-light-02 overflow-x-hidden font-primary">
     <!-- header-section -->
@@ -73,7 +81,7 @@
             <a href="#about" class="hover:text-primary"> Sobre</a>
           </li>
           <li>
-            <a href="#home" class="hover:text-primary">Depoimentos</a>
+            <a href="#contact" class="hover:text-primary">Depoimentos</a>
           </li>
         </ul>
         <!-- call-to-action-button -->
@@ -103,6 +111,7 @@
     </header>
     <!-- hero or banner  section -->
     <section
+      id="home"
       class="py-28 bg-green-light flex items-center justify-between gap-8"
     >
       <div
@@ -167,7 +176,7 @@
       </div>
     </section>
     <!-- services section -->
-    <section class="md:py-20 py-12">
+    <section id="services" class="md:py-20 py-12">
       <div class="xontainer max-w-screen-xl mx-auto p-4 text-center">
         <div class="services">
           <p class="text-primary text-lg mb-4 mt-12">SERVIÇOS</p>
@@ -188,7 +197,7 @@
     </section>
 
     <!-- /about section -->
-    <section class="md:py-20 py-12 bg-brand-being">
+    <section id="about" class="md:py-20 py-12 bg-brand-being">
       <div
         class="py-12 max-w-screen-xl container mx-auto px-4 flex flex-col md:flex-row items-center gap-12 justify-between"
       >
@@ -221,7 +230,7 @@
     </section>
 
     <!-- contact section -->
-    <section class="md:py-20 py-12">
+    <section id="contact" class="md:py-20 py-12">
       <div
         class="py-12 max-w-screen-xl container mx-auto px-4 flex flex-col md:flex-row-reverse items-center gap-12 justify-between"
       >
